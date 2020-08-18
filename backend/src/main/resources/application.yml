@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    database: MYSQL
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost/sistema?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+    password: 1234
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true 
